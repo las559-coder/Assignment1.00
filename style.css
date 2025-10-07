@@ -1,0 +1,72 @@
+/* Google Font */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+}
+
+/* Navigation */
+nav {
+    background-color: #2c2c54;
+    padding: 1em;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #ffcc00;
+}
+
+/* Example HTML Tag Selectors */
+h1 {
+    color: #3b3b98;
+    text-align: center;
+}
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Classes */
+.highlight {
+    background-color: #f1f8ff;
+    padding: 5px 10px;
+    border-left: 5px solid #3b3b98;
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.15);
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Gallery */
+.gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.gallery img {
+    width: 200px;
+    height: auto;
+    display: block;
+}
+
+/* NEW CSS Property (clip-path for creativity) */
+.gallery img {
+    clip-path: circle(90% at 50% 50%);
+}
